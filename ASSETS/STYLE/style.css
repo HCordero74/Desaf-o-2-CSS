@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+        "nav-bar nav-bar"
+        "menu-lateral contenido"
+        "pie-pagina pie-pagina";
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 9% 81% 10%;
+    min-height: 100vh;
+
+}
+
+.nav-bar{
+    grid-area: nav-bar;
+    background-color: blanchedalmond;
+}
+
+.menu-lateral{
+    display: flex;
+    flex-direction: column;
+    grid-area: menu-lateral;
+    background-color: aquamarine;
+}
+
+.contenido{
+    grid-area: contenido;
+    background-color: rgb(159, 235, 238);
+}
+
+.pie-pagina{
+    grid-area: pie-pagina;
+    background-color: rgb(245, 162, 210);
+}
