@@ -24,8 +24,20 @@ body{
 .menu-lateral{
     display: flex;
     flex-direction: column;
+
     grid-area: menu-lateral;
     background-color: aquamarine;
+}
+
+.con-men-lat{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.icono{
+    justify-content: end;
 }
 
 .contenido{
