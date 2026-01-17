@@ -13,7 +13,7 @@ body{
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 9% 81% 10%;
     min-height: 100vh;
-
+    
 }
 
 .nav-bar{
@@ -36,8 +36,32 @@ body{
     gap: 15px;
 }
 
+.alinea-menu-icono{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.menu-producto{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
 .icono{
-    justify-content: end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grilla-producto{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.card-producto{
+    display: flex;
+    flex-direction: column;
 }
 
 .contenido{
