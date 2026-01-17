@@ -9,20 +9,19 @@
     <title>E-COMMERCE</title>
 </head>
 <body>
-    <nav class="nav-bar">
+    <nav class="nav-bar bg-light">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">Pricing</a>
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </div>
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Catálogo</a>
+                    <a class="nav-link" href="#">Beneficios</a>
+                    <a class="nav-link" href="#">Hazte cliente</a>
+                </div>
             </div>
         </div>
         </nav>
@@ -31,45 +30,143 @@
         <div class="con-men-lat">
             <h3>Filtros</h3><i class="fa-solid fa-filter"></i>
         </div>
-        <div class="alinea-menu-icono">
-            <div>
-                <div>   
-                    <h5>Categorías</h5>
-                    <div class="menu-producto">
-                        <h6>Producto 1</h6>
-                        <h6>Producto 2</h6>
-                        <h6>Producto 3</h6>
-                        <h6>Producto 4</h6>
-                        <h6>Producto 5</h6>
-                        <h6>Producto 6</h6>
-                    </div>
+        <div>
+        <div class="icono">   
+            <h5>Categorías</h5><i class="fa-duotone fa-solid fa-angle-down"></i>
+        </div>
+                <div class="menu-producto">
+                    <h6>Ajedrez (24)</h6>
+                    <h6>Poleras (10)</h6>
+                    <h6>Relojes (5)</h6>
+                    <h6>Libros (21)</h6>
                 </div>
-                <h5>Marca</h5>
-                <h5>Tipo</h5>
-                <h5>Tamaño</h5>
-                <h5>Precio</h5>
+            <div class="icono-1">    
+                <h5>Marca</h5><i class="fa-duotone fa-solid fa-angle-down"></i>
             </div>
-            <div class="icono">
-                <i class="fa-duotone fa-solid fa-angle-down"></i>
-                <i class="fa-duotone fa-solid fa-angle-down"></i>
-                <i class="fa-duotone fa-solid fa-angle-down"></i>
-                <i class="fa-duotone fa-solid fa-angle-down"></i>
-                <i class="fa-duotone fa-solid fa-angle-down"></i>
+            <div class="icono-2">    
+                <h5>Tipo</h5><i class="fa-duotone fa-solid fa-angle-down"></i>
+            </div>
+            <div class="icono-3">    
+                <h5>Tamaño</h5><i class="fa-duotone fa-solid fa-angle-down"></i>
+            </div>
+            <div class="icono-4">    
+                <h5>Precio</h5><i class="fa-duotone fa-solid fa-angle-down"></i>
             </div>
         </div>
+        <section>
+            <div>
+                <div class="rango-precio">
+                    <p>$ 5.000</p>
+                    <p>$ 20.000</p>
+                </div>
+                <input type="range" class="form-range" id="customRange1">
+            </div>
+           <div>
+                <div class="rango-precio">
+                    <p>$ 20.000</p>
+                    <p>$ 60.000</p>
+                </div>
+                <input type="range" class="form-range" id="customRange1">
+            </div>
+            <div>
+                <div class="rango-precio">
+                    <p>$ 60.000</p>
+                    <p>$ 100.000</p>
+                </div>
+                <input type="range" class="form-range" id="customRange1">
+            </div>
+            <div>
+                <div class="rango-precio">
+                    <p>$ 100.000</p>
+                    <p>$ 150.000</p>
+                </div>
+                <input type="range" class="form-range" id="customRange1">
+            </div>
+        </section>
+        <section>
+            <div>
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
     </menu>
     <main class="contenido">
-        <h3 class="border-bottom p-2">GALERÍA DE PRODUCTOS</h3>
+        <div class="gal-prod">
+            <h3 class="border-bottom p-2">GALERÍA DE PRODUCTOS</h3>
+        </div>
         <section class="grilla-producto">
             <div class="card-producto">
-                <img src="" alt="">
-
+                <img class="card-images" src="./ASSETS/IMAGES/ajedrez 3 quijote.jpg" alt="juego de ajedrez">
+                <h4>Ajedrez temático Quijote</h4>
+                <h5>$ 125.800.-</h5>
+                <div class="carr-compra">
+                    <button type="button" class="btn btn-primary boton"><i class="fa-solid fa-cart-shopping"></i>Añadir a carrito de compras</button>
+                </div>
             </div>
-            
+            <div class="card-producto">
+                <img class="card-images" src="./ASSETS/IMAGES/reloj antiguo.jpg" alt="reloj de ajedrez">
+                <h4>Reloj análogo modelo antiguo</h4>
+                <h5>$ 75.500.-</h5>
+                <div class="carr-compra">
+                    <button type="button" class="btn btn-primary boton"><i class="fa-solid fa-cart-shopping"></i>Añadir a carrito de compras</button>
+                </div>
+            </div>
+            <div class="card-producto">
+                <img class="card-images" src="./ASSETS/IMAGES/polera-1.webp" alt="polera de ajedrez">
+                <h4>Polera estampada de ajedrez</h4>
+                <h5>$ 25.400.-</h5>
+                <div class="carr-compra">
+                    <button type="button" class="btn btn-primary boton"><i class="fa-solid fa-cart-shopping"></i>Añadir a carrito de compras</button>
+                </div>
+            </div>
+            <div class="card-producto">
+                <img class="card-images" src="./ASSETS/IMAGES/ajedrez 1.jpg" alt="juego de ajedrez">
+                <h4>Ajedrez de madera</h4>
+                <h5>$ 345.300.-</h5>
+                <div class="carr-compra">
+                    <button type="button" class="btn btn-primary boton"><i class="fa-solid fa-cart-shopping"></i>Añadir a carrito de compras</button>
+                </div>
+            </div>
+            <div class="card-producto">
+                <img class="card-images" src="./ASSETS/IMAGES/mis 60 mejores-1.jpg" alt="libro de ajedrez">
+                <h4>Mis 60 mejores pasrtidas</h4>
+                <h5>$ 45.450.-</h5>
+                <div class="carr-compra">
+                    <button type="button" class="btn btn-primary boton"><i class="fa-solid fa-cart-shopping"></i>Añadir a carrito de compras</button>
+                </div>
+            </div>
+            <div class="card-producto">
+                <img class="card-images" src="./ASSETS/IMAGES/reloj digital.jpg" alt="reloj ddigital de ajedrez">
+                <h4>Reloj digital de torneo</h4>
+                <h5>$ 87.950.-</h5>
+                <div class="carr-compra">
+                    <button type="button" class="btn btn-primary boton"><i class="fa-solid fa-cart-shopping"></i>Añadir a carrito de compras</button>
+                </div>
+            </div>
         </section>
     </main>
-    <footer class="pie-pagina">
-        PIE PÁGINA
+    <footer class="pie-pagina bg-light">
+        <section class="pie-pagina gap-5">
+            <div class="pie-pagina gap-3">
+                <i class="fa-solid fa-credit-card"></i>
+                <p>6 Cuotas precio contado</p>
+            </div>
+            <div class="pie-pagina gap-3">
+                <i class="fa-solid fa-truck-fast"></i>
+                <p>Envío gratis desde $ 55.500</p>
+            </div>
+        </section>
     </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>  
 </body>
