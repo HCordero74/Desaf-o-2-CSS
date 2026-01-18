@@ -11,9 +11,8 @@ body{
         "menu-lateral contenido"
         "pie-pagina pie-pagina";
     grid-template-columns: 1fr 5fr;
-    grid-template-rows: 7% 90% 3%;
+    grid-template-rows: 1fr 12fr 1/2fr;
     min-height: 100vh;
-    
 }
 
 .nav-bar{
@@ -149,7 +148,9 @@ body{
 
 .parr-pie-pag{
     display: flex;
+    flex-direction: row;
     text-align: center;
+    height: 100%;
 
 }.rango-precio{
     display: flex;
